@@ -12,9 +12,9 @@ using BusinessLogic;
 
 namespace Task_1
 {
-    public partial class Form1 : Form
+    public partial class ProgramForm : Form
     {
-        public Form1()
+        public ProgramForm()
         {
             InitializeComponent();
         }

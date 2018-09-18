@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{413EBE5A-E8CF-4D95-AF03-B89C4734FC09}</ProjectGuid>
+    <ProjectGuid>{EE355C7E-E7EF-448E-80AE-CEBE8D44602A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Task_1</RootNamespace>
-    <AssemblyName>Task_1</AssemblyName>
+    <RootNamespace>Task_2</RootNamespace>
+    <AssemblyName>Task_2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -79,7 +79,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+    <ProjectReference Include="..\..\BusinessLogic\BusinessLogic\BusinessLogic.csproj">
       <Project>{5d61c2dd-7f12-4ec3-89d2-74371720f102}</Project>
       <Name>BusinessLogic</Name>
     </ProjectReference>
